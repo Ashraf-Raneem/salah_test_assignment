@@ -1,0 +1,71 @@
+.navbarContainer {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 25px;
+  width: 100%;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
+}
+.brandImg {
+  margin: 15px 20px;
+  height: 38px;
+  width: 38px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.nav a {
+  border-right: 1px solid grey;
+  padding: 0px 25px;
+  margin: 20px 10px;
+  height: 23px;
+  color: black;
+  text-decoration: none;
+}
+.nav a:hover {
+  text-decoration: none;
+}
+.cartBtn {
+  height: 35px;
+  position: relative;
+  bottom: 10px;
+  margin: 0px 15px;
+  color: white;
+}
+.cartBtn:hover {
+  text-decoration: none;
+  color: white;
+}
+.navInput {
+  width: 250px;
+}
+.nav .nb {
+  padding-left: 25px;
+  margin: 20px 10px;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+}
+.cartNumber {
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+}
+
+/***Responsive****/
+@media (max-width: 1000px) {
+  .nav {
+    display: none;
+  }
+}

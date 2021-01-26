@@ -1,0 +1,79 @@
+.cartPageContainer {
+  margin: 50px 0px;
+}
+.cartPageHeader {
+  height: 180px;
+  background-color: whitesmoke;
+  border-top: 1px solid grey;
+  width: 100%;
+  padding: 50px;
+}
+.cartPageHeader h3 {
+  text-align: left;
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 25px;
+}
+.cartPageGrid {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+}
+.cartPageGrid h4 {
+  font-size: 18px;
+}
+.reciept {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.valueContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cartItems {
+  width: 60%;
+}
+.cartItem {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+}
+.cartItemImg {
+  height: 120px;
+  width: 120px;
+  margin: 10px;
+}
+.cartItemText {
+  width: 50%;
+}
+.quantity {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.quantity p {
+  border: 1px solid grey;
+  border-left: none;
+  width: 100px;
+  height: 50px;
+  background-color: whitesmoke;
+  color: black;
+  padding: 10px 15px;
+}
+.quantityBtnContainer {
+  display: flex;
+  flex-direction: column;
+}
+.quantityBtnContainer button {
+  height: 25px;
+}
+.cancelBtn {
+  margin: 10px 5px;
+  width: 60px;
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}

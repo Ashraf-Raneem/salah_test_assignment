@@ -1,0 +1,125 @@
+/********Cover******/
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.cover h2 {
+  margin: 40px 0px;
+}
+.underline {
+  height: 1px;
+  width: 120px;
+  margin: 10px 0px;
+  background-color: grey;
+}
+.coverImageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 500px;
+}
+.coverImageContainer img {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+.shopBtn {
+  width: 150px;
+}
+
+/****Responsive****/
+@media (max-with: 650px) {
+  .coverImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+  }
+}
+/***Newsletter***/
+
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+  padding: 25px 5px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.newsletterText {
+  width: 500px;
+  text-align: left;
+}
+.newsletterForm {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.newsletterBtn {
+  background-color: whitesmoke;
+  height: 40px;
+  width: 150px;
+  margin-left: 15px;
+}
+
+/*****Responsive*****/
+@media (max-width: 650px) {
+  .newsletterForm {
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletterText {
+    width: 300px;
+  }
+}
+
+/*****About*****/
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+  margin: 50px;
+}
+
+/****ProductList****/
+.productListContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0px;
+  border-bottom: 1px solid grey;
+  padding: 30px 0px;
+}
+.column1 img {
+  height: 300px;
+  margin-bottom: 10px;
+}
+.column2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/*****Responsive*****/
+@media (max-width: 650px) {
+  .productListContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    border-bottom: 1px solid grey;
+    padding: 30px 0px;
+  }
+  .column1 {
+    display: none;
+  }
+  .column2 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
